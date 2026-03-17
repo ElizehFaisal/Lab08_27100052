@@ -21,6 +21,7 @@ public class CustomList {
         return cities.contains(city);
     }
 
+    //added delete city function
     public void deleteCity(City city) {
         cities.remove(city);
     }
